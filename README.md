@@ -10,10 +10,18 @@ An [ExpressionEngine 3](https://expressionengine.com/) fieldtype (with [Grid](ht
 - Copy the forms_select folder to your system/user/addons directory
 - Go to the Add-on Manager and install Forms Select
 
+## Update
+- Overwrite the files or forms_select folder
+- Go to the Add-on Manager and update Forms Select
+
 ## Usage
 A fieldtype _Forms Select_ is available when creating an field, easy as pie!
 
 ## Changelog
+### 1.0.1
+- Made an default empty option _Select Form_ in the dropdown
+- Capitalized the readme file
+
 ### 1.0.0
 - Initial release
 
@@ -21,4 +29,4 @@ A fieldtype _Forms Select_ is available when creating an field, easy as pie!
 All credits for the beautiful [Forms](http://www.devdemon.com/expressionengine-addons/forms) add-on by [DevDemon](http://www.devdemon.com). 
 
 ## License
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) License.
+This work is licensed under a [MIT](https://opensource.org/licenses/MIT) License.

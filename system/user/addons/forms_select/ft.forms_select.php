@@ -7,7 +7,7 @@
  * @category    Fieldtypes
  * @author      Erwin Romkes
  * @link        https://www.stoneandstorm.com
- * @license     https://creativecommons.org/licenses/by-sa/4.0/
+ * @license     https://opensource.org/licenses/MIT
  */
 
 include(PATH_THIRD.'/forms_select/config.php');
@@ -78,6 +78,17 @@ class Forms_select_ft extends EE_Fieldtype {
     }
 
     /**
+     * Update the fieldtype
+     *
+     * @param string $version The version being updated to
+     * @return boolean TRUE if successful, FALSE otherwise
+     */
+    public function update($version)
+    {
+        return TRUE;
+    }
+
+    /**
      * Get all the Forms from database
      *
      * @access  private
@@ -86,6 +97,8 @@ class Forms_select_ft extends EE_Fieldtype {
     private function get_forms()
     {
         $forms_array = array();
+
+        $forms_array[0] = lang('fs_select_form');
 
         ee()->db->select('form_title, form_id');
         ee()->db->where('site_id', ee()->config->item('site_id'));

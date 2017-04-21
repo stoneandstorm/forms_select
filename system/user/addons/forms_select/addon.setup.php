@@ -7,7 +7,7 @@
  * @category    Fieldtypes
  * @author      Erwin Romkes
  * @link        https://www.stoneandstorm.com
- * @license     https://creativecommons.org/licenses/by-sa/4.0/
+ * @license     https://opensource.org/licenses/MIT
  */
 
 include(PATH_THIRD.'/forms_select/config.php');

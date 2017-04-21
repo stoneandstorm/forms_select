@@ -7,12 +7,15 @@
  * @category    Fieldtypes
  * @author      Erwin Romkes
  * @link        https://www.stoneandstorm.com
- * @license     https://creativecommons.org/licenses/by-sa/4.0/
+ * @license     https://opensource.org/licenses/MIT
  */
 
 $lang = array(
     "fs_no_forms" =>
         "No Forms have yet been created.",
+
+    "fs_select_form" =>
+        "Select form",
 
     // END
     ''=>''
