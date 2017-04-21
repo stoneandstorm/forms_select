@@ -12,5 +12,5 @@
 
 if( ! defined('FORMS_SELECT_VERSION') )
 {
-    define('FORMS_SELECT_VERSION', '1.0.1');
+    define('FORMS_SELECT_VERSION', '1.0.2');
 }

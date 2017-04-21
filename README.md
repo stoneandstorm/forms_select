@@ -18,6 +18,9 @@ An [ExpressionEngine 3](https://expressionengine.com/) fieldtype (with [Grid](ht
 A fieldtype _Forms Select_ is available when creating an field, easy as pie!
 
 ## Changelog
+### 1.0.2
+- Changed the deprecated XSS filter function
+
 ### 1.0.1
 - Made an default empty option _Select Form_ in the dropdown
 - Capitalized the readme file

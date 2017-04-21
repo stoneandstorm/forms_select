@@ -106,7 +106,7 @@ class Forms_select_ft extends EE_Fieldtype {
 
         foreach ($query->result() as $row)
         {
-            $forms_array[ $row->form_id ] = ee()->security->xss_clean($row->form_title);
+            $forms_array[ $row->form_id ] = ee('Security/XSS')->clean($row->form_title);
         }
 
         return $forms_array;
